@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bvrvdvj3MTobcetIE5e9r0ptONcfW56EuF+muHQX/W9YwpUbRqMPWLv2dE+encvx5hDX94SUJ9TxMl3gi51zwA==",
+  "dgSpecHash": "DnQgBQCxNu/SBMAlFOy/YEbDeIfAHW60WNfJbaJri77AJ319Ix32KPw18OtXtJ2/eYgOWjYZjoj+EGUX98VUwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\Calculator\\Calculator.csproj",
+  "projectFilePath": "c:\\Users\\alexa\\Calculator\\Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

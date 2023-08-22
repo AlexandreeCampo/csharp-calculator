@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\Calculator\\Calculator.csproj": {}
+    "c:\\Users\\alexa\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\Calculator\\Calculator.csproj": {
+    "c:\\Users\\alexa\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "c:\\Users\\alexa\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\alexa\\Calculator\\Calculator.csproj",
+        "projectPath": "c:\\Users\\alexa\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\Calculator\\obj\\",
+        "outputPath": "c:\\Users\\alexa\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"

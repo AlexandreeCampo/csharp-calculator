@@ -6,7 +6,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Menu(); //Aqui fazemos a chamada dos métodos.
+            Menu();
         }
 
         static void Menu ()
@@ -30,34 +30,34 @@ namespace Calculator
                 case 3: Multiplicacao(); break;
                 case 4: Divisao(); break;
                 case 5: System.Environment.Exit(0); break;
-                default: Menu(); break; // default sempre irá chamar o Menu quando escolhermos uma opção que não existe.
+                default: Menu(); break;
             }
         }
 
-        static void Soma () // Método para Somar os valores
+        static void Soma ()
         {
-            Console.Clear(); // Clear ira limpar a tela antes que algo ser executado.
+            Console.Clear();
 
-            Console.WriteLine("Primeiro valor: "); // Dando entrada de um valor
-            float valorUm = float.Parse(Console.ReadLine()); // ReadLine vai ler este valor e armazenar na variável valorUm. Parse converte string em float
+            Console.WriteLine("Primeiro valor: ");
+            float valorUm = float.Parse(Console.ReadLine());
 
             Console.WriteLine("Segundo valor: ");
             float valorDois = float.Parse(Console.ReadLine());
 
-            Console.WriteLine(""); // Pulando uma linha.
+            Console.WriteLine("");
 
             float soma = valorUm+valorDois;
-            Console.WriteLine($"O resultado da soma é {soma}"); //Estou usando o format que é o cifrão $ fora das aspas a esquerda, junto das chaves que envolvem a variável.
-            Console.ReadKey(); // ReadKey faz com que o programa não termine na chamada do primeiro método, assim podendo fazer a chamada do restante.
+            Console.WriteLine($"O resultado da soma é {soma}");
+            Console.ReadKey();
             Menu();
         }
 
         static void Subtracao () 
         {
-            Console.Clear(); // Clear ira limpar a tela antes que algo ser executado.
+            Console.Clear();
 
-            Console.WriteLine("Primeiro valor: "); // Dando entrada de um valor
-            float valorUm = float.Parse(Console.ReadLine()); // ReadLine vai ler este valor e armazenar em v1. Parse converte string em float
+            Console.WriteLine("Primeiro valor: ");
+            float valorUm = float.Parse(Console.ReadLine());
 
             Console.WriteLine("Segundo valor: ");
             float valorDois = float.Parse(Console.ReadLine());
